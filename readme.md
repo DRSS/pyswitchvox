@@ -18,19 +18,17 @@ A quick and simple way to start calls from a python application.  We use pyswitc
 
 ## Installation
 
-pip install pyswitchvox
+`pip install pyswitchvox`
 
-## API Reference
-
-TODO
 
 ## Tests
 
-TODO
+Run `nosetests` to run tests.
 
 ## Contributors
 
-TODO
+Stephen Castle
+
 ## License
 
-TODO
+MIT
