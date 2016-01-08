@@ -6,7 +6,7 @@ Pyswitchvox is a simple python library for initiating calls in a switchvox syste
 
 ```python
 import pyswitchvox
-myvox = Switchvox('server.com', 'user', 'password')
+myvox = Switchvox('user', 'password', 'server')
 response = myvox.call(900,902)
 response.json()
 
