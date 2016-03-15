@@ -61,7 +61,7 @@ class SwitchVox:
         account_id = self.get_account_id(extension)
         params = {'start_date': startdate,
                   'end_date': enddate,
-                  'account_id': account_id, }
+                  'account_ids': [account_id], }
         json_data = self.build_json(http_method, params)
         print(json_data)
         r = requests.post(self.server,
